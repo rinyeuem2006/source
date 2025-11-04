@@ -447,7 +447,12 @@ function renderCheckout() {
     });
   }
 }
-
+// ================= Hiển thị form chuyển khoản =================
+document.querySelectorAll('input[name="pay"]').forEach(radio => {
+    radio.addEventListener('change', () => {
+        document.getElementById('bank-info').style.display = (radio.value === 'bank') ? 'block' : 'none';
+    });
+});
 // ================= Thanh toán =================
 // === SỬA LỖI 2: THAY THẾ TOÀN BỘ HÀM NÀY ===
 function checkoutOrder() {
