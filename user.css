@@ -321,7 +321,7 @@ header
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("./assets/img/Mouse/mouse_02.jpg");
+    url("./assets/img/mouse/mouse_02.jpg");
   background-position: center;
 }
 .main-section .category-feature .category-feature-item::before {
@@ -351,7 +351,7 @@ header
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("./assets/img/Keyboard/keyboard_08.jpeg");
+    url("./assets/img/keyboard/keyboard_08.jpeg");
   background-position: center;
   transition: all 0.7s ease;
 }
@@ -367,7 +367,7 @@ header
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("./assets/img/HEADPHONE/headphone_03.jpg");
+    url("./assets/img/headphone/headphone_03.jpg");
   background-position: center;
 }
 .main-section .category-feature .category-feature-item4 {
@@ -382,7 +382,7 @@ header
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url("./assets/img/SACDUPHONG/sacduphong_05.jpg");
+    url("./assets/img/sacduphong/sacduphong_05.jpg");
   background-position: center;
 }
 .main-section
