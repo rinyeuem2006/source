@@ -16,6 +16,4 @@ def validate_pin(pin):
 
 def authenticate(pin):
     """Authenticate user with PIN"""
-    if validate_pin(pin):
-        return True
-    return False
+    return validate_pin(pin)
