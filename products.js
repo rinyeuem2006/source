@@ -253,6 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
       else nextButton.classList.remove("disabled");
     }
   }
+  // Lọc sản phẩm
   function filterProductsFromActiveCategories() {
     // 1. Tạo một mảng rỗng để chứa các danh mục được chọn
     const activeCategories = [];
@@ -333,7 +334,7 @@ document.addEventListener("DOMContentLoaded", function () {
     allCategoriesLink.classList.add("active");
   }
 
-  // 3. Gắn sự kiện click cho từng link danh mục
+  // 3. Gắn sự kiện click cho từng link DANH MỤC 
   categoryLink.forEach((link) => {
     link.addEventListener("click", (e) => {
       // Ngăn thẻ <a> tải lại trang
